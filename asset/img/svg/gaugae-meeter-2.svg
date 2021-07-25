@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="59.407" height="59.401" viewBox="0 0 59.407 59.401">
+  <g id="flow_icons-17" data-name="flow icons-17" transform="translate(-48.48 -48)">
+    <path id="Path_323" data-name="Path 323" d="M257.693,166.79a.177.177,0,0,0-.23-.011l-14.088,10.668a3.041,3.041,0,0,0-.346.3h0a2.856,2.856,0,0,0,.1,4.035,3.078,3.078,0,0,0,.308.251h0a2.856,2.856,0,0,0,3.982-.657l10.305-14.358A.177.177,0,0,0,257.693,166.79Zm-12.28,13.565a1.02,1.02,0,1,1,1.018-1.018,1.019,1.019,0,0,1-1.018,1.018Z" transform="translate(-166.094 -101.786)" fill="#2f42ce"/>
+    <path id="Path_324" data-name="Path 324" d="M53.478,77.7h-5A29.735,29.735,0,0,1,78.181,48v5A24.731,24.731,0,0,0,53.478,77.7Z" transform="translate(0 0)" fill="#4954e5"/>
+    <path id="Path_325" data-name="Path 325" d="M286.221,77.7h-5A24.731,24.731,0,0,0,256.52,53V48A29.735,29.735,0,0,1,286.221,77.7Z" transform="translate(-178.334 0)" fill="#ff6767"/>
+    <path id="Path_326" data-name="Path 326" d="M78.2,285.7A29.735,29.735,0,0,1,48.5,256h5a24.731,24.731,0,0,0,24.7,24.7Z" transform="translate(-0.017 -178.299)" fill="#ffab4e"/>
+    <circle id="Ellipse_59" data-name="Ellipse 59" cx="2.427" cy="2.427" r="2.427" transform="translate(88.733 99.745)" fill="#ff6767"/>
+    <circle id="Ellipse_60" data-name="Ellipse 60" cx="2.427" cy="2.427" r="2.427" transform="translate(96.351 93.618)" fill="#ff6767"/>
+    <circle id="Ellipse_61" data-name="Ellipse 61" cx="2.427" cy="2.427" r="2.427" transform="translate(101.296 85.641)" fill="#ff6767"/>
+  </g>
+</svg>

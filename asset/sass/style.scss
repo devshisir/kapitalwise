@@ -1,0 +1,41 @@
+// some comon style import 
+@import 'import/reset.scss';
+@import 'import/_color.scss';
+@import 'import/comon.scss';
+
+// button style 
+@import './component/button.scss';
+
+
+@import './component/header.scss';
+@import './component/dropdown.scss';
+
+// page style incude 
+@import './page/automate-precise.scss';
+
+// request demo page 
+@import './page/request-demo.scss';
+
+// marketing automation page 
+@import './page/marketing-automation.scss';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

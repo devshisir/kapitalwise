@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="315.148" height="317.585" viewBox="0 0 315.148 317.585">
+  <defs>
+    <filter id="Rectangle_118" x="107.136" y="107.311" width="208.011" height="87.666" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#828282" flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_121" x="0" y="0" width="208.011" height="87.666" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-color="#828282" flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_124" x="0" y="229.92" width="208.011" height="87.666" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-3"/>
+      <feFlood flood-color="#828282" flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_174" data-name="Group 174" transform="translate(-907.426 -3485.126)">
+    <path id="Path_99" data-name="Path 99" d="M204.48,247.164v103.8a12.768,12.768,0,0,1-10.447,5.4H170.47" transform="translate(914.09 3400.517)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.5" stroke-dasharray="2.02 5.05"/>
+    <path id="Path_98" data-name="Path 98" d="M204.48,251.594V175.157a12.768,12.768,0,0,0-10.447-5.4H170.47" transform="translate(914.09 3358.14)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.5" stroke-dasharray="2.02 5.05"/>
+    <g transform="matrix(1, 0, 0, 1, 907.43, 3485.13)" filter="url(#Rectangle_118)">
+      <rect id="Rectangle_118-2" data-name="Rectangle 118" width="178.011" height="57.666" rx="9" transform="translate(122.14 120.31)" fill="#ff687a"/>
+    </g>
+    <path id="Path_103" data-name="Path 103" d="M371.749,154.4a17.829,17.829,0,1,0,17.829,17.829A17.829,17.829,0,0,0,371.749,154.4Zm-2.519,26.128-7.568-7.556,2.519-2.53,5.049,5.049L379.317,165.4l2.519,2.519Z" transform="translate(691.011 3462.041)" fill="#fff"/>
+    <rect id="Rectangle_119" data-name="Rectangle 119" width="102.517" height="8.218" rx="3.54" transform="translate(1089.179 3619.226)" fill="#fff"/>
+    <rect id="Rectangle_120" data-name="Rectangle 120" width="52.094" height="8.218" rx="3.54" transform="translate(1089.179 3638.46)" fill="#fff"/>
+    <g transform="matrix(1, 0, 0, 1, 907.43, 3485.13)" filter="url(#Rectangle_121)">
+      <rect id="Rectangle_121-2" data-name="Rectangle 121" width="178.011" height="57.666" rx="9" transform="translate(15 13)" fill="#fff"/>
+    </g>
+    <path id="Path_104" data-name="Path 104" d="M53.989,154.4a17.829,17.829,0,1,0,17.829,17.829A17.829,17.829,0,0,0,53.989,154.4ZM51.47,180.528,43.9,172.972l2.519-2.53,5.049,5.049L61.511,165.4l2.519,2.519Z" transform="translate(901.635 3354.73)" fill="#02b4cc"/>
+    <rect id="Rectangle_122" data-name="Rectangle 122" width="102.517" height="8.218" rx="3.54" transform="translate(982.041 3511.916)" fill="#02b4cc" opacity="0.2"/>
+    <rect id="Rectangle_123" data-name="Rectangle 123" width="52.094" height="8.218" rx="3.54" transform="translate(982.041 3531.149)" fill="#02b4cc" opacity="0.2"/>
+    <g transform="matrix(1, 0, 0, 1, 907.43, 3485.13)" filter="url(#Rectangle_124)">
+      <rect id="Rectangle_124-2" data-name="Rectangle 124" width="178.011" height="57.666" rx="9" transform="translate(15 242.92)" fill="#fff"/>
+    </g>
+    <path id="Path_105" data-name="Path 105" d="M53.989,325.88a17.829,17.829,0,1,0,17.829,17.829A17.829,17.829,0,0,0,53.989,325.88ZM51.47,352.008,43.9,344.452l2.519-2.53,5.049,5.049,10.04-10.087,2.519,2.519Z" transform="translate(901.635 3413.169)" fill="#ffcb06"/>
+    <rect id="Rectangle_125" data-name="Rectangle 125" width="102.517" height="8.218" rx="3.54" transform="translate(982.041 3741.835)" fill="#ffcb06" opacity="0.2"/>
+    <rect id="Rectangle_126" data-name="Rectangle 126" width="52.094" height="8.218" rx="3.54" transform="translate(982.041 3761.069)" fill="#ffcb06" opacity="0.2"/>
+  </g>
+</svg>

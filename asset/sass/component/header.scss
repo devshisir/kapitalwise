@@ -1,0 +1,50 @@
+#hedaer{
+   background-color: #fff;
+   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.16);
+   position: relative;
+   .header-menu-area{
+      >ul{
+         >li{
+            display: inline-block;
+            margin-left: 10px;
+            position: relative;
+            &:hover{
+               .dropdoown_area{
+                  opacity: 1;
+                  visibility: visible;
+                  transition: 0.3s;
+               }
+               >a{
+                  color: $mainColor;
+                  i{
+                     transform: rotate(180deg)
+                  }
+               }
+            }
+            >a{
+               padding: 0px 20px;
+               font-size: 16px;
+               font-weight: 500;
+               height: 75px;
+               display: flex;
+               align-items: center;
+               i{
+                  margin-left: 10px;
+                  transition: 0.4s;
+               }
+            }
+            &:last-child{
+               margin-left: 20px;
+            }
+         }
+         .btn-primary{
+            height: 50px !important;
+         }
+         .active{
+            a{
+               color: $mainColor;
+            }
+         }
+      }
+   }
+}

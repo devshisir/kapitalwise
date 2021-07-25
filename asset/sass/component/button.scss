@@ -1,0 +1,40 @@
+.btn{
+   transition: 0.4s;
+   display: inline-block;
+   border-radius: 5px;
+   border: none;
+   font-weight: 500;
+   font-size: 16px;
+   &:hover{
+      box-shadow: 6px 4px 10px rgba(0,0,0,0.2);
+      transform: translateY(-1px);
+   }
+}
+
+.btn-check:focus+.btn, .btn:focus {
+   outline: 0;
+   box-shadow: none !important;
+}
+
+.btn-primary{
+   background-color: $mainColor;
+   height: 50px;
+   padding: 10px 30px;
+   &:hover{
+      background-color: $mainColor;
+      opacity: 0.9;
+      color: #fff !important;
+   }
+}
+
+.btn-light{
+   background-color: #fff;
+   height: 50px;
+   padding: 10px 30px;
+   color: $mainColor;
+   &:hover{
+      background-color: $mainColor;
+      opacity: 0.9;
+      color: #fff;
+   }
+}
