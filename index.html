@@ -26,14 +26,14 @@
    <header id="hedaer">
       <div class="container">
          <div class="row align-items-center">
-            <div class="col-xl-4">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-6">
                <div class="logo-area">
                   <a href="#">
                      <img class="img-fluid" src="asset/img/logo.png" alt="Kapitalwise">
                   </a>
                </div>
             </div>
-            <div class="col-xl-8">
+            <div class="col-xl-8 col-lg-8 col-md-8 col-6">
                <div class="header-menu-area text-end">
                   <ul>
                      <!-- you can also put a active class on li tag  -->
@@ -46,10 +46,13 @@
                            </ul>
                         </div>
                      </li>
-                     <li><a href="#">Solutions</a></li>
+                     <!-- <li><a href="#">Solutions</a></li> -->
                      <li><a href="#">Blog</a></li>
                      <li><a class="btn btn-primary text-uppercase" href="#">Get In Touch</a></li>
                   </ul>
+               </div>
+               <div class="mobile_hambarger_btn text-end">
+                  <button type="button" data-bs-toggle="offcanvas" data-bs-target="#mobilesidebarMenu" aria-controls="offcanvasRight"><i class="far fa-bars"></i></button>
                </div>
             </div>
          </div>
@@ -57,18 +60,41 @@
    </header>
    <!-- end header area  -->
 
+   <!-- mobile sidebar menu  -->
+   <div class="offcanvas offcanvas-end mobile_menu_sidebar" tabindex="-1" id="mobilesidebarMenu" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header justify-content-end">
+        <button type="button" data-bs-dismiss="offcanvas" aria-label="Close">
+           <i class="fal fa-times"></i>
+        </button>
+      </div>
+      <div class="offcanvas-body">
+         <div class="menu_area">
+            <ul>
+               <li><a href="#">Products <span><i class="fal fa-angle-double-right"></i></span></a></li>
+               <li class="sub_menu"><a href="#">Financial Wellness Automation <span><i class="fal fa-angle-double-right"></i></span></a></li>
+               <li class="sub_menu"><a href="#">Marketing Automation <span><i class="fal fa-angle-double-right"></i></span></a></li>
+               <li><a href="#">Blog <span><i class="fal fa-angle-double-right"></i></span></a></li>
+            </ul>
+         </div>
+         <div class="call_action">
+            <a href="#" class="btn btn-primary">Get in touch</a>
+         </div>
+      </div>
+   </div>
+   <!-- end mobile sidebar menu  -->
+
    <!-- start automate banar area  -->
    <section id="automate_banar">
       <div class="container">
-         <div class="row align-items-center">
-            <div class="col-xxl-6">
+         <div class="row align-items-center automotion_banar_row">
+            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-5">
                <div class="banar_content">
                   <h3>Automated, Precise Client Engagement</h3>
                   <p>Kapitalwise no-code platform helps financial institutions to automate client engagement by connecting internal and customer-facing apps.</p>
                   <a class="btn btn-primary text-uppercase" href="#">GET A DEMO</a>
                </div>
             </div>
-            <div class="col-xxl-6">
+            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-7">
                <div class="banar_video_toggle">
                   <img class="img-fluid" src="asset/img/automate-banner.png" alt="">
                   <div class="video_play_toggle venubox">
@@ -134,21 +160,21 @@
                </div>
                <div class="whay_us_card_wrapper">
                   <div class="row">
-                     <div class="col-xl-4">
+                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                         <div class="why_us_item text-center">
                            <img class="img-fluid injectable" src="asset/img/svg/intergate.svg" alt="">
                            <h3>Integrate</h3>
                            <p>Aggregate internal data silos to build a 360'customer profile.</p>
                         </div>
                      </div>
-                     <div class="col-xl-4">
+                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                         <div class="why_us_item text-center">
                            <img class="img-fluid injectable" src="asset/img/svg/automate.svg" alt="">
                            <h3>Automate</h3>
                            <p>Automate customer facing and internal workflows.</p>
                         </div>
                      </div>
-                     <div class="col-xl-4">
+                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                         <div class="why_us_item text-center">
                            <img class="img-fluid injectable" src="asset/img/svg/analyze.svg" alt="">
                            <h3>Analyze</h3>
@@ -173,7 +199,7 @@
                </div>
                <div class="top_card_box">
                   <div class="row">
-                     <div class="col-xl-3">
+                     <div class="col-xl-3 col-lg-3 col-md-3">
                         <div class="item_box text-center">
                            <div class="icon_box">
                               <img class="img-fluid injectable" src="asset/img/svg/data.svg" alt="">
@@ -181,7 +207,7 @@
                            <h4>Data Aggregation</h4>
                         </div>
                      </div>
-                     <div class="col-xl-3">
+                     <div class="col-xl-3 col-lg-3 col-md-3">
                         <div class="item_box text-center">
                            <div class="icon_box">
                               <img class="img-fluid injectable" src="asset/img/svg/gauge-meter.svg" alt="">
@@ -189,7 +215,7 @@
                            <h4>Financial Wellness</h4>
                         </div>
                      </div>
-                     <div class="col-xl-3">
+                     <div class="col-xl-3 col-lg-3 col-md-3">
                         <div class="item_box text-center">
                            <div class="icon_box">
                               <img class="img-fluid injectable" src="asset/img/svg/envelope.svg" alt="">
@@ -197,7 +223,7 @@
                            <h4>Marketing Automation</h4>
                         </div>
                      </div>
-                     <div class="col-xl-3">
+                     <div class="col-xl-3 col-lg-3 col-md-3">
                         <div class="item_box text-center">
                            <div class="icon_box">
                               <img class="img-fluid injectable" src="asset/img/svg/paper-plane.svg" alt="">
@@ -209,7 +235,7 @@
                </div>
                <div class="bottom_feater">
                   <div class="row">
-                     <div class="col-xl-7">
+                     <div class="col-xl-7 col-lg-7">
                         <div class="item_box">
                            <div class="item_bottom">
                               <h4>AI/ML Driven</h4>
@@ -221,7 +247,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="col-xl-5">
+                     <div class="col-xl-5 col-lg-5">
                         <div class="item_box item_box_right">
                            <div class="item_bottom">
                               <h4>Events and Triggers</h4>
@@ -275,12 +301,12 @@
                   <div class="testmonial_slide_active owl-carousel">
                      <div class="testmonial_slide_item">
                         <div class="row align-items-end">
-                           <div class="col-xl-3">
+                           <div class="col-xl-3 col-lg-3">
                               <div class="image_box">
                                  <img class="img-fluid" src="asset/img/testmonial.png" alt="">
                               </div>
                            </div>
-                           <div class="col-xl-9">
+                           <div class="col-xl-9 col-lg-9">
                               <div class="content_box">
                                  <p>We’re excited that Kapitalwise has joined our FusionFabric.cloud ecosystem, with the launch of its Active Engage app in our FusionStore. This milestone will enable our customers around the world to access innovative apps like Kapitalwise quickly and cost-efficiently, to extend their offerings, and provide a better customer experience.</p>
                                  <h4>Ryan Zilker</h4>
@@ -291,12 +317,12 @@
                      </div>
                      <div class="testmonial_slide_item">
                         <div class="row align-items-end">
-                           <div class="col-xl-3">
+                           <div class="col-xl-3 col-lg-3">
                               <div class="image_box">
                                  <img class="img-fluid" src="asset/img/testmonial.png" alt="">
                               </div>
                            </div>
-                           <div class="col-xl-9">
+                           <div class="col-xl-9 col-lg-9">
                               <div class="content_box">
                                  <p>We’re excited that Kapitalwise has joined our FusionFabric.cloud ecosystem, with the launch of its Active Engage app in our FusionStore. This milestone will enable our customers around the world to access innovative apps like Kapitalwise quickly and cost-efficiently, to extend their offerings, and provide a better customer experience.</p>
                                  <h4>Ryan Zilker</h4>
@@ -307,12 +333,12 @@
                      </div>
                      <div class="testmonial_slide_item">
                         <div class="row align-items-end">
-                           <div class="col-xl-3">
+                           <div class="col-xl-3 col-lg-3">
                               <div class="image_box">
                                  <img class="img-fluid" src="asset/img/testmonial.png" alt="">
                               </div>
                            </div>
-                           <div class="col-xl-9">
+                           <div class="col-xl-9 col-lg-9">
                               <div class="content_box">
                                  <p>We’re excited that Kapitalwise has joined our FusionFabric.cloud ecosystem, with the launch of its Active Engage app in our FusionStore. This milestone will enable our customers around the world to access innovative apps like Kapitalwise quickly and cost-efficiently, to extend their offerings, and provide a better customer experience.</p>
                                  <h4>Ryan Zilker</h4>
@@ -333,15 +359,15 @@
    <section id="promotion_banar_2">
       <div class="promotion_banar_2_wrapper">
          <div class="container">
-            <div class="row align-items-center">
-               <div class="col-xl-7">
+            <div class="row align-items-center promotional_banar_row_2">
+               <div class="col-xl-7 col-lg-6">
                   <div class="content_box">
                      <h3>An API first platform</h3>
                      <p>Seamlessly connect your CRM, marketing and financial wellness apps.</p>
                      <a href="#" class="btn btn-light">Request a Risk-Free Pilot</a>
                   </div>
                </div>
-               <div class="col-xl-5">
+               <div class="col-xl-5 col-lg-6">
                   <div class="image_box text-center">
                      <img class="img-fluid injectable" src="asset/img/svg/api.svg" alt="">
                   </div>
@@ -362,7 +388,7 @@
                </div>
                <div class="newslater_form_area">
                   <div class="row">
-                     <div class="col-xl-7 mx-auto">
+                     <div class="col-xl-7 col-lg-10 mx-auto">
                         <form action="#">
                            <div class="input_box">
                               <input type="text" placeholder="Subscribe to Newsletter">

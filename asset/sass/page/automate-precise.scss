@@ -444,3 +444,408 @@
       }
    }
 }
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px) and (max-width: 1499px) {
+   
+}
+
+@media (min-width: 1500px) and (max-width: 1709px) {}
+
+@media (min-width: 1200px) and (max-width: 1300px) {}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+   #automate_banar .banar_content h3 {
+      font-size: 40px;
+      line-height: 57px;
+   }
+   #why_us_area .whay_us_card_wrapper .why_us_item{
+      width: 100%;
+      padding: 50px 20px;
+   }
+   #promotion_banar .promotion_banar_container{
+      padding: 65px 116px;
+   }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+   #automate_banar{
+      padding: 80px 0px;
+   }
+   #automate_banar .banar_content h3{
+      font-size: 21px;
+      line-height: 31px;
+   }
+   #automate_banar .banar_content p{
+      font-size: 13px;
+      line-height: 23px;
+   }
+   .section_title{
+      font-size: 21px;
+   }
+   #brand_partner{
+      padding: 50px 0px;
+   }
+   #brand_partner .partner_wrapper{
+      margin-top: 50px;
+   }
+   #brand_partner .partner_wrapper .partner_item img{
+      height: 40px;
+   }
+   #why_us_area .whay_us_card_wrapper .why_us_item{
+      margin-bottom: 30px;
+   }
+   #why_us_area{
+      padding-bottom: 50px;
+   }
+   #connect_with_you .top_card_box .item_box h4{
+      font-size: 14px;
+   }
+   #connect_with_you .top_card_box .item_box .icon_box{
+      height: 80px;
+      width: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+   #connect_with_you .top_card_box .item_box .icon_box svg{
+      height: 30px;
+   }
+   #connect_with_you .bottom_feater{
+      width: 96%;
+   }
+   #connect_with_you .bottom_feater .item_box{
+      margin-bottom: 30px;
+   }
+   #connect_with_you{
+      padding: 50px 0px 50px 0px;
+   }
+   #promotion_banar .promotion_banar_container{
+      padding: 65px 80px;
+   }
+   #promotion_banar .promotion_banar_container h3{
+      font-size: 25px;
+   }
+   #promotion_banar{
+      padding: 50px 0px;
+   }
+   #testmonial_area .testmonial_main_wrapper{
+      margin-top: 50px;
+      padding-top: 50px;
+   }
+   #testmonial_area .testmonial_main_wrapper .testmonial_slide_active .testmonial_slide_item .image_box{
+      width: 300px;
+      margin: 0 auto;
+   }
+   #testmonial_area .testmonial_main_wrapper .testmonial_slide_active .testmonial_slide_item .image_box img{
+      height: 300px;
+      width: auto !important;
+   }
+   #testmonial_area .testmonial_main_wrapper .testmonial_slide_active .testmonial_slide_item .content_box{
+      margin-top: 30px;
+   }
+   #testmonial_area .testmonial_main_wrapper .testmonial_slide_active .testmonial_slide_item .content_box p {
+      font-size: 17px;
+      line-height: 31px;
+   }
+   .promotional_banar_row_2{
+      flex-direction: column-reverse;
+   }
+   #promotion_banar_2 .promotion_banar_2_wrapper .content_box{
+      text-align: center;
+      margin-top: 30px;
+   }
+   #newslater_area .newslater_form_area .input_box button{
+      margin-left: 17px;
+   }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+   .automotion_banar_row{
+      flex-direction: column-reverse;
+   }
+   #automate_banar .banar_video_toggle{
+      width: 100%;
+   }
+   #automate_banar{
+      padding: 50px 0px;
+   }
+   #automate_banar .banar_content{
+      margin-top: 30px;
+   }
+   #automate_banar .banar_content h3 {
+      font-size: 39px;
+      line-height: 51px;
+   }
+   .section_title{
+      font-size: 21px;
+   }
+   #brand_partner{
+      padding: 50px 0px;
+   }
+   #brand_partner .partner_wrapper{
+      margin-top: 50px;
+   }
+   #brand_partner .partner_wrapper .partner_item img{
+      height: 40px;
+   }
+   #why_us_area .whay_us_card_wrapper .why_us_item{
+      margin-bottom: 20px;
+      width: 100%;
+      padding: 30px;
+   }
+   #why_us_area{
+      padding-bottom: 50px;
+   }
+   #connect_with_you .top_card_box .item_box{
+      margin-bottom: 30px;
+   }
+   #connect_with_you .top_card_box .item_box .icon_box svg{
+      height: 30px;
+   }
+   #connect_with_you .bottom_feater{
+      width: 96%;
+   }
+   #connect_with_you .bottom_feater .item_box{
+      margin-bottom: 30px;
+   }
+   #connect_with_you{
+      padding: 50px 0px 50px 0px;
+   }
+   #promotion_banar .promotion_banar_container{
+      padding: 65px 20px;
+   }
+   #promotion_banar .promotion_banar_container h3{
+      font-size: 25px;
+   }
+   #promotion_banar{
+      padding: 50px 0px;
+   }
+   #testmonial_area .testmonial_main_wrapper{
+      margin-top: 50px;
+      padding-top: 50px;
+   }
+   #testmonial_area .testmonial_main_wrapper .testmonial_slide_active .testmonial_slide_item .image_box{
+      width: 300px;
+      margin: 0 auto;
+   }
+   #testmonial_area .testmonial_main_wrapper .testmonial_slide_active .testmonial_slide_item .image_box img{
+      height: 300px;
+      width: auto !important;
+   }
+   #testmonial_area .testmonial_main_wrapper .testmonial_slide_active .testmonial_slide_item .content_box{
+      margin-top: 30px;
+   }
+   #testmonial_area .testmonial_main_wrapper .testmonial_slide_active .testmonial_slide_item .content_box p {
+      font-size: 17px;
+      line-height: 31px;
+   }
+   .promotional_banar_row_2{
+      flex-direction: column-reverse;
+   }
+   #promotion_banar_2 .promotion_banar_2_wrapper .content_box{
+      text-align: center;
+      margin-top: 30px;
+   }
+   #newslater_area .newslater_form_area .input_box button{
+      margin-left: 17px;
+   }
+   #why_us_area .whay_us_card_wrapper{
+      margin-top: 50px;
+   }
+   #connect_with_you .top_title h3 {
+      line-height: 32px;
+   }
+   #connect_with_you .top_card_box::after {
+      width: 1px;
+      top: 50%;
+      left: 0;
+      right: 0;
+      margin: auto;
+      content: "";
+      position: absolute;
+      border: 1px dashed #9f9f9f4b;
+      transform: translateY(-50%);
+      z-index: -1;
+      height: 70%;
+   }
+   #connect_with_you .bottom_feater {
+      width: 96%;
+      margin-top: 30px;
+   }
+   #footer .footer_item_wrapper {
+      display: flex;
+      justify-content: space-between;
+   }
+   #footer .footer_item_wrapper .link_area{
+      margin-bottom: 30px;
+   }
+   #footer{
+      padding: 50px 0px 70px 0px;
+   }
+}
+
+@media (max-width: 575px) {
+   .automotion_banar_row{
+      flex-direction: column-reverse;
+   }
+   #automate_banar .banar_video_toggle{
+      width: 100%;
+   }
+   #automate_banar{
+      padding: 50px 0px;
+   }
+   #automate_banar .banar_content{
+      margin-top: 20px;
+   }
+   #automate_banar .banar_content h3 {
+      font-size: 26px;
+      line-height: 32px;
+   }
+   #automate_banar .banar_content p{
+      font-size: 15px;
+   }
+   #automate_banar .banar_content a{
+      display: block !important;
+      margin-top: 15px;
+   }
+   .section_title{
+      font-size: 21px;
+      line-height: 29px;
+   }
+   #brand_partner{
+      padding: 50px 0px;
+   }
+   #brand_partner .partner_wrapper{
+      margin-top: 50px;
+      flex-wrap: wrap;
+      justify-content: space-between;
+   }
+   #brand_partner .partner_wrapper .partner_item {
+      margin-bottom: 20px;
+      width: 100%;
+      text-align: center;
+   }
+   #brand_partner .partner_wrapper .partner_item img{
+      height: 50px;
+   }
+   #why_us_area .whay_us_card_wrapper .why_us_item{
+      margin-bottom: 20px;
+      width: 100%;
+      padding: 30px;
+   }
+   #why_us_area{
+      padding-bottom: 50px;
+   }
+   #connect_with_you .top_card_box .item_box{
+      margin-bottom: 30px;
+   }
+   #connect_with_you .top_card_box .item_box .icon_box svg{
+      height: 30px;
+   }
+   #connect_with_you .bottom_feater{
+      width: 96%;
+   }
+   #connect_with_you .bottom_feater .item_box{
+      margin-bottom: 30px;
+   }
+   #connect_with_you{
+      padding: 50px 0px 50px 0px;
+   }
+   #promotion_banar .promotion_banar_container{
+      padding: 65px 20px;
+   }
+   #promotion_banar .promotion_banar_container h3{
+      font-size: 25px;
+   }
+   #promotion_banar{
+      padding: 50px 0px;
+   }
+   #testmonial_area .testmonial_main_wrapper{
+      margin-top: 50px;
+      padding-top: 50px;
+   }
+   #testmonial_area .testmonial_main_wrapper .testmonial_slide_active .testmonial_slide_item .image_box{
+      width: 300px;
+      margin: 0 auto;
+   }
+   #testmonial_area .testmonial_main_wrapper .testmonial_slide_active .testmonial_slide_item .image_box img{
+      height: 300px;
+      width: auto !important;
+   }
+   #testmonial_area .testmonial_main_wrapper .testmonial_slide_active .testmonial_slide_item .content_box{
+      margin-top: 30px;
+   }
+   #testmonial_area .testmonial_main_wrapper .testmonial_slide_active .testmonial_slide_item .content_box p {
+      font-size: 17px;
+      line-height: 31px;
+   }
+   .promotional_banar_row_2{
+      flex-direction: column-reverse;
+   }
+   #promotion_banar_2 .promotion_banar_2_wrapper .content_box{
+      text-align: center;
+      margin-top: 30px;
+   }
+   #newslater_area .newslater_form_area .input_box button{
+      margin-left: 17px;
+   }
+   #why_us_area .whay_us_card_wrapper{
+      margin-top: 50px;
+   }
+   #connect_with_you .top_title h3 {
+      font-size: 16px;
+      line-height: 24px;
+   }
+   #connect_with_you .top_card_box::after {
+      width: 1px;
+      top: 50%;
+      left: 0;
+      right: 0;
+      margin: auto;
+      content: "";
+      position: absolute;
+      border: 1px dashed #9f9f9f4b;
+      transform: translateY(-50%);
+      z-index: -1;
+      height: 70%;
+   }
+   #connect_with_you .bottom_feater {
+      width: 96%;
+      margin-top: 30px;
+   }
+   #footer .footer_item_wrapper {
+      display: flex;
+      justify-content: space-between;
+   }
+   #footer .footer_item_wrapper .link_area{
+      margin-bottom: 30px;
+   }
+   #footer{
+      padding: 50px 0px 70px 0px;
+   }
+   #newslater_area .newslater_form_area .input_box{
+      flex-direction: column;
+   }
+   #newslater_area .newslater_form_area .input_box input{
+      flex: inherit !important;
+      width: 100%;
+   }
+   #newslater_area .newslater_form_area .input_box button{
+      margin-left: 0px;
+      display: block;
+      width: 80%;
+      margin-top: 20px;
+   }
+   #footer .footer_item_wrapper .logo_area{
+      margin-bottom: 30px;
+   }
+}

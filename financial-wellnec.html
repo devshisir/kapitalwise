@@ -26,14 +26,14 @@
    <header id="hedaer">
       <div class="container">
          <div class="row align-items-center">
-            <div class="col-xl-4">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-6">
                <div class="logo-area">
                   <a href="#">
                      <img class="img-fluid" src="asset/img/logo.png" alt="Kapitalwise">
                   </a>
                </div>
             </div>
-            <div class="col-xl-8">
+            <div class="col-xl-8 col-lg-8 col-md-8 col-6">
                <div class="header-menu-area text-end">
                   <ul>
                      <!-- you can also put a active class on li tag  -->
@@ -46,10 +46,13 @@
                            </ul>
                         </div>
                      </li>
-                     <li><a href="#">Solutions</a></li>
+                     <!-- <li><a href="#">Solutions</a></li> -->
                      <li><a href="#">Blog</a></li>
                      <li><a class="btn btn-primary text-uppercase" href="#">Get In Touch</a></li>
                   </ul>
+               </div>
+               <div class="mobile_hambarger_btn text-end">
+                  <button type="button" data-bs-toggle="offcanvas" data-bs-target="#mobilesidebarMenu" aria-controls="offcanvasRight"><i class="far fa-bars"></i></button>
                </div>
             </div>
          </div>
@@ -57,18 +60,41 @@
    </header>
    <!-- end header area  -->
 
+   <!-- mobile sidebar menu  -->
+   <div class="offcanvas offcanvas-end mobile_menu_sidebar" tabindex="-1" id="mobilesidebarMenu" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header justify-content-end">
+        <button type="button" data-bs-dismiss="offcanvas" aria-label="Close">
+           <i class="fal fa-times"></i>
+        </button>
+      </div>
+      <div class="offcanvas-body">
+         <div class="menu_area">
+            <ul>
+               <li><a href="#">Products <span><i class="fal fa-angle-double-right"></i></span></a></li>
+               <li class="sub_menu"><a href="#">Financial Wellness Automation <span><i class="fal fa-angle-double-right"></i></span></a></li>
+               <li class="sub_menu"><a href="#">Marketing Automation <span><i class="fal fa-angle-double-right"></i></span></a></li>
+               <li><a href="#">Blog <span><i class="fal fa-angle-double-right"></i></span></a></li>
+            </ul>
+         </div>
+         <div class="call_action">
+            <a href="#" class="btn btn-primary">Get in touch</a>
+         </div>
+      </div>
+   </div>
+   <!-- end mobile sidebar menu  -->
+
    <!-- automation banner  -->
    <section id="automation_banner">
       <div class="container">
-         <div class="row align-items-center">
-            <div class="col-xl-6">
+         <div class="row automation_banner_row align-items-center">
+            <div class="col-xl-6 col-lg-6">
                <div class="content_box">
                   <h3>Financial Wellness <br> Automation</h3>
                   <p>Be a customer-first financial institution. Nudge <br> your customers towards their life goals.</p>
                   <a href="#" class="btn btn-primary">GET A DEMO</a>
                </div>
             </div>
-            <div class="col-xl-6">
+            <div class="col-xl-6 col-lg-6">
                <div class="image_box">
                   <img class="img-fluid" src="asset/img/financial-banar.jpg" alt="">
                </div>
@@ -88,21 +114,21 @@
                </div>
                <div class="main_wrapper">
                   <div class="row">
-                     <div class="col-xl-4">
+                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="item_box text-center">
                            <img class="injectable" src="asset/img/svg/program.svg" alt="">
                            <h4>Progammable</h4>
                            <p>Build and deploy personalized financial tool based on client's financial situations and affordability on a no-code platform</p>
                         </div>
                      </div>
-                     <div class="col-xl-4">
+                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="item_box text-center">
                            <img class="injectable" src="asset/img/svg/gaugae-meeter-2.svg" alt="">
                            <h4>Wide Array of Tools</h4>
                            <p>From goal recommendation to wellness  score calculator, subscription insights, and credit insights tools.</p>
                         </div>
                      </div>
-                     <div class="col-xl-4">
+                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="item_box text-center">
                            <img class="injectable" src="asset/img/svg/doller-book.svg" alt="">
                            <h4>Financial Literacy</h4>
@@ -151,49 +177,49 @@
             </div>
             <div class="main_wrapper">
                <div class="row">
-                  <div class="col-xl-4">
+                  <div class="col-xl-4 col-lg-4 col-md-6">
                      <div class="item_box">
                         <h4>Smart Goals</h4>
                         <p>Recommend the right financial goals based on <br> the life and financial events</p>
                      </div>
                   </div>
-                  <div class="col-xl-4">
+                  <div class="col-xl-4 col-lg-4 col-md-6">
                      <div class="item_box">
                         <h4>Microinvesting</h4>
                         <p>Help them start investing. Round-up investing <br> and robo-recommendations.</p>
                      </div>
                   </div>
-                  <div class="col-xl-4">
+                  <div class="col-xl-4 col-lg-4 col-md-6">
                      <div class="item_box">
                         <h4>Wellness Score</h4>
                         <p>A holistic view of the financial situations compared  with their peer group.</p>
                      </div>
                   </div>
-                  <div class="col-xl-4">
+                  <div class="col-xl-4 col-lg-4 col-md-6">
                      <div class="item_box">
                         <h4>Budgeting</h4>
                         <p>Help them plan their spending. Get notified when over spending on a category.</p>
                      </div>
                   </div>
-                  <div class="col-xl-4">
+                  <div class="col-xl-4 col-lg-4 col-md-6">
                      <div class="item_box">
                         <h4>Credit Insights</h4>
                         <p>Credit Bureau score and tips to improve on the score.</p>
                      </div>
                   </div>
-                  <div class="col-xl-4">
+                  <div class="col-xl-4 col-lg-4 col-md-6">
                      <div class="item_box">
                         <h4>Calculators</h4>
                         <p>A wide array of calculators, from College Savings Calculator to Retirement Planning.</p>
                      </div>
                   </div>
-                  <div class="col-xl-4">
+                  <div class="col-xl-4 col-lg-4 col-md-6">
                      <div class="item_box">
                         <h4>Nudges</h4>
                         <p>Calculate future cash flow and nudge to save towards life goals.</p>
                      </div>
                   </div>
-                  <div class="col-xl-4">
+                  <div class="col-xl-4 col-lg-4 col-md-6">
                      <div class="item_box">
                         <h4>Subscription Insights</h4>
                         <p>Recurring and subscription transaction management tool.</p>
@@ -217,20 +243,20 @@
                </div>
                <div class="main_wrapper">
                   <div class="row">
-                     <div class="col-xl-4">
+                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="item_box">
                            <h4>White Labeled</h4>
                            <p>Use the no-code platform to customize the user  experience. Build, pilot, and deploys in minutes.  Analyze feedback and refine the experience without any IT support.</p>
                         </div>
                      </div>
-                     <div class="col-xl-4">
+                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="item_box item_box2">
                            <h4>API</h4>
                            <p>Extend our easy to understand,  REST APIs built by developers for the developers. Our well-documented APIs with examples 
                            guarantee a faster go-to-market.</p>
                         </div>
                      </div>
-                     <div class="col-xl-4">
+                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="item_box item_box3">
                            <h4>Hybrid</h4>
                            <p>Data privacy is key. Never share any Personally identifiable information (PII).  Our hybrid deployment option lets you  run the data sensitive modules on internal  systems that seamlessly integrate with our SaaS platform.</p>
@@ -244,18 +270,19 @@
    </section>
    <!-- end deployment option area  -->
 
-   <section id="promotion_banar_2" class="promotion_banar_2">
+   <!-- start promotion banner 2  -->
+   <section id="promotion_banar_2">
       <div class="promotion_banar_2_wrapper">
          <div class="container">
-            <div class="row align-items-center">
-               <div class="col-xl-7">
+            <div class="row align-items-center promotional_banar_row_2">
+               <div class="col-xl-7 col-lg-6">
                   <div class="content_box">
                      <h3>Improve your customer engagement rate by 150%</h3>
                      <p>Calculators, goal setting, micro investing and credit insight apps</p>
                      <a href="#" class="btn btn-light">Request a Risk-Free Pilot</a>
                   </div>
                </div>
-               <div class="col-xl-5">
+               <div class="col-xl-5 col-lg-6">
                   <div class="image_box text-center">
                      <img class="img-fluid injectable" src="asset/img/svg/api.svg" alt="">
                   </div>
@@ -264,15 +291,7 @@
          </div>
       </div>
    </section>
-
-
-
-
-
-
-
-
-
+   <!-- end promotion banner 2  -->
 
    <!-- start newslater area -->
    <section id="newslater_area">
@@ -284,7 +303,7 @@
                </div>
                <div class="newslater_form_area">
                   <div class="row">
-                     <div class="col-xl-7 mx-auto">
+                     <div class="col-xl-7 col-lg-10 mx-auto">
                         <form action="#">
                            <div class="input_box">
                               <input type="text" placeholder="Subscribe to Newsletter">
