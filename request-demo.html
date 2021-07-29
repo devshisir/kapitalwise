@@ -22,6 +22,68 @@
 </head>
 
 <body>
+
+   <!-- start header area  -->
+   <header id="hedaer">
+      <div class="container">
+         <div class="row align-items-center">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-6">
+               <div class="logo-area">
+                  <a href="index.html">
+                     <img class="img-fluid" src="asset/img/logo.png" alt="Kapitalwise">
+                  </a>
+               </div>
+            </div>
+            <div class="col-xl-8 col-lg-8 col-md-8 col-6">
+               <div class="header-menu-area text-end">
+                  <ul>
+                     <!-- you can also put a active class on li tag  -->
+                     <li>
+                        <a href="#">Products <i class="fal fa-angle-down"></i></a>
+                        <div class="dropdoown_area">
+                           <ul>
+                              <li><a href="financial-wellnec.html">Financial Wellness Automation</a></li>
+                              <li><a href="marketing-automation.html">Marketing Automation</a></li>
+                           </ul>
+                        </div>
+                     </li>
+                     <!-- <li><a href="#">Solutions</a></li> -->
+                     <li><a href="#">Blog</a></li>
+                     <li><a class="btn btn-primary text-uppercase" href="request-demo.html">Get In Touch</a></li>
+                  </ul>
+               </div>
+               <div class="mobile_hambarger_btn text-end">
+                  <button type="button" data-bs-toggle="offcanvas" data-bs-target="#mobilesidebarMenu" aria-controls="offcanvasRight"><i class="far fa-bars"></i></button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <!-- end header area  -->
+
+   <!-- mobile sidebar menu  -->
+   <div class="offcanvas offcanvas-end mobile_menu_sidebar" tabindex="-1" id="mobilesidebarMenu" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header justify-content-end">
+         <button type="button" data-bs-dismiss="offcanvas" aria-label="Close">
+            <i class="fal fa-times"></i>
+         </button>
+      </div>
+      <div class="offcanvas-body">
+         <div class="menu_area">
+            <ul>
+               <li><a href="#">Products <span><i class="fal fa-angle-double-right"></i></span></a></li>
+               <li class="sub_menu"><a href="financial-wellnec.html">Financial Wellness Automation <span><i class="fal fa-angle-double-right"></i></span></a></li>
+               <li class="sub_menu"><a href="marketing-automation.html">Marketing Automation <span><i class="fal fa-angle-double-right"></i></span></a></li>
+               <li><a href="#">Blog <span><i class="fal fa-angle-double-right"></i></span></a></li>
+            </ul>
+         </div>
+         <div class="call_action">
+            <a href="request-demo.html" class="btn btn-primary">Get in touch</a>
+         </div>
+      </div>
+   </div>
+   <!-- end mobile sidebar menu  -->
+
    <section id="request_demo_area">
       <div class="container-fluid">
          <div class="row request_demo_row">
@@ -76,7 +138,50 @@
       </div>
    </section>
 
-
+   <!-- start footer area  -->
+   <footer id="footer">
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <div class="footer_item_wrapper">
+                  <div class="logo_area">
+                     <a href="index.html">
+                        <img class="img-fluid" src="asset/img/footer-logo.png" alt="">
+                     </a>
+                     <p>Providing customer excellence for <br> fintechs and banks.</p>
+                  </div>
+                  <div class="link_area">
+                     <h4>Products</h4>
+                     <ul>
+                        <li><a href="financial-wellnec.html">Wellness Automation</a></li>
+                        <li><a href="marketing-automation.html">Marketing Automation</a></li>
+                     </ul>
+                  </div>
+                  <div class="link_area">
+                     <h4>Resources</h4>
+                     <ul>
+                        <li><a href="#">Blogs</a></li>
+                     </ul>
+                  </div>
+                  <div class="link_area">
+                     <h4>Company</h4>
+                     <ul>
+                        <li><a href="#">Contact us</a></li>
+                     </ul>
+                  </div>
+                  <div class="social_link">
+                     <h4>Follow us on:</h4>
+                     <ul>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <!-- end footer area  -->
 
 
 
